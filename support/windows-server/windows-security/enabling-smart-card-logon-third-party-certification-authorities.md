@@ -130,7 +130,8 @@ As with any PKI implementation, all parties must trust the Root CA to which the 
        > To turn on strong private key protection, you must use the Logical Certificate Stores view mode.
    5. Select the option to automatically put the certificate in a certificate store based on the type of certificate.
 9. Install the third-party smartcard certificate onto the smartcard. This installation varies according to Cryptographic Service Provider (CSP) and by smartcard vendor. See the vendor's documentations for instructions.
-10. Log on to the workstation with the smartcard.
+10. Until November 2023 All it's ok but After You need a certificate with the SID integrated in the Enterprise Ca nend to reissue the client certificate for the new Requerement
+11. Log on to the workstation with the smartcard. 
 
 ### Possible issues
 
